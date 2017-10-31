@@ -72,7 +72,7 @@ Test connection (127.0.0.1 or real IP)
 psql -h 127.0.0.1 -d sonar -U sonar
 \q
 ```
-# Install Oracke JAVA
+# Install Oracle JAVA
 SonarQube Server require versions 8 of the JVM
 Download rpm package
 ```sh
