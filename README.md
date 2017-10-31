@@ -116,7 +116,7 @@ SonarQube will be installed in `/opt/sonar/`
 
 Confgure database parameters for SonarQube 
 ```sh
-vi /home/sonar/sonarqube-6.6/conf/sonar.properties
+vi /opt/sonar/conf/sonar.properties
 ```
 In `# User credentials` section
 ```sh
