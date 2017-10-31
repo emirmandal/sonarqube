@@ -65,6 +65,7 @@ Open ports for PostgreSQL and SonarQube
 ```sh
 firewall-cmd --add-port 5432/tcp --permanent
 firewall-cmd --add-port 9000/tcp --permanent
+service firewalld restart
 ```
 
 Test connection (127.0.0.1 or real IP)
