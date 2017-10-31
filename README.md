@@ -128,7 +128,9 @@ In `#----- PostgreSQL 8.x/9.x` section
 sonar.jdbc.url=jdbc:postgresql://127.0.0.1/sonar
 ```
 In `# WEB SERVER` section add `-server` in `sonar.web.javaOpts`
+```sh
 sonar.web.javaOpts=-Xmx512m -Xms128m -XX:+HeapDumpOnOutOfMemoryError -server
+```
 Start SonarQube server:
 ```sh
 /etc/init.d/sonar start
